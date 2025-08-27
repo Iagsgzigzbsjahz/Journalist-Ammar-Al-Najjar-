@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الموقع الشخصي لعمار النجار</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="description" content="الموقع الرسمي للصحفي والمحلل السياسي عمار النجار." />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="nav">
+    <div class="wrap container">
+      <a class="brand" href="temp.html" aria-label="الصفحة الرئيسية">
+        <img src="ammar.jpg" alt="عمار النجار" />
+        <div class="brand-col">
+          <span class="brand-title">عمار النجار</span>
+          <span class="brand-sub">صحفي • محلل سياسي</span>
+        </div>
+      </a>
+
+      <!-- القائمة -->
+      <div class="menu" role="navigation" aria-label="القائمة">
+        <a href="temp.html">الرئيسية</a>
+        <a href="sv.html">السيرة</a>
+        <a href="الانجازات.html">الإنجازات</a>
+        <a href="البرامج_والاعمال.html">البرامج</a>
+        <a href="المؤلفات.html">المؤلفات</a>
+        <a href="media.html">التواصل</a>
+        <a href="نبذة_عامة.html">نبذة</a>
+      </div>
+
+      <!-- زر تبديل الثيم (ظاهر دائمًا) -->
+      <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">☀️</button>
+
+      <!-- زر القائمة للموبايل -->
+      <button class="mobile-toggle" aria-label="فتح القائمة">القائمة</button>
+    </div>
+    <div class="active-underline"></div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero hero-index">
+    <div class="bg-orbs" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1 class="reveal">مرحباً بكم</h1>
+        <p class="lead reveal delay-1">
+          هذه البوابة الرسمية للصحفي والمحلل السياسي <b>عمار النجار</b>، حيث يمكنكم
+          الاطلاع على أحدث الظهور الإعلامي والبرامج والإنجازات.
+        </p>
+        <div class="actions reveal delay-2">
+          <a class="btn" href="temp.html">ادخل للموقع</a>
+          <a class="btn ghost" href="sv.html">السيرة الذاتية</a>
+        </div>
+        <div class="chips reveal delay-3">
+          <span class="chip">تحليل سياسي</span>
+          <span class="chip">تغطيات دولية</span>
+          <span class="chip">الشرق الأوسط</span>
+        </div>
+      </div>
+      <div class="hero-media reveal delay-2">
+        <img class="hero-photo neon" src="ammar.jpg" alt="عمار النجار على الهواء" />
+      </div>
+    </div>
+    <a href="#next" class="scroll-cue" aria-label="انتقل للأسفل">▼</a>
+  </header>
+
+  <!-- تحويل تلقائي -->
+  <script>
+    setTimeout(function(){ location.href='temp.html'; }, 4000);
+  </script>
+
+  <a href="#top" class="btn backtotop" aria-label="أعلى">⬆</a>
+  <script src="assets/script.js"></script>
+</body>
+</html>
